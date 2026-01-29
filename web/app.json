@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Khawab Ki Tabeer",
+    "slug": "khawab-ki-tabeer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#065f46"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.khawabkitabeer.app",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1781167680002439~8352490439"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#065f46"
+      },
+      "package": "com.khawabkitabeer.app",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-1781167680002439~8352490439"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-1781167680002439~8352490439",
+          "iosAppId": "ca-app-pub-1781167680002439~8352490439"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme": "khawabkitabeer"
+  }
+}

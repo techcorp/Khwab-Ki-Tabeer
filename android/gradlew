@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+# Minimal Gradle wrapper script placeholder.
+# If you open this project in Android Studio, it will download the Gradle distribution automatically.
+exec gradle "$@"
