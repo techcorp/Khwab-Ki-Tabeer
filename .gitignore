@@ -1,0 +1,12 @@
+
+# Android / Gradle (generated)
+android/**/build/
+android/**/.gradle/
+android/.gradle/
+android/**/.idea/
+android/local.properties
+*.apk
+*.aab
+
+# Node (optional)
+node_modules/

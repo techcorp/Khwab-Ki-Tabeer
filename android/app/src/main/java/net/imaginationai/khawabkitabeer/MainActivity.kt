@@ -1,5 +1,6 @@
 package net.imaginationai.khawabkitabeer
-
+import android.webkit.SslErrorHandler
+import android.net.http.SslError
 import android.annotation.SuppressLint
 import android.net.Uri
 import android.os.Bundle
@@ -10,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 class MainActivity : AppCompatActivity() {
 
     // ✅ CHANGE THIS to your hosted URL (e.g., https://imaginationai.net/khawab-ki-tabeer)
-    private val START_URL = "https://YOUR-DOMAIN-HERE/"
+    private val START_URL = "https://khwab-ki-tabeer.pages.dev/"
 
     private lateinit var webView: WebView
 
